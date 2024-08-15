@@ -1,0 +1,2 @@
+# MiniPizzaProject
+Ehrlich coding project
