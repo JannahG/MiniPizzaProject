@@ -21,6 +21,6 @@ public class CsvService
 
     public IEnumerable<Pizza> GetPizzas()
     {
-        return CsvDataReaderHelper.ReadFromCsv<Pizza>("pizza_types.csv", new PizzasMap());
+        return CsvDataReaderHelper.ReadFromCsv<Pizza>("pizzas.csv", new PizzasMap());
     }
 }
